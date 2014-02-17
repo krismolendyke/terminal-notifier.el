@@ -79,6 +79,7 @@ root or home `Applications' directories."
             (tn--append-argument arguments "subtitle" subtitle)
             (tn--append-argument arguments "group" group)
             (tn--append-argument arguments "activate" activate "org.gnu.Emacs")
+            (tn--append-argument arguments "sender" activate "org.gnu.Emacs")
             (tn--append-argument arguments "open" open)
             (tn--append-argument arguments "command" command)
             (apply 'start-process arguments))
